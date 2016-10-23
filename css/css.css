@@ -1,0 +1,35 @@
+/* -- fontstyle -- */
+
+@font-face {
+  font-family: "Noto Sans TC";
+  font-style: normal;
+  font-weight: 300;
+  src: url("http://fonts.gstatic.com/ea/notosanstc/v1/NotoSansTC-Light.woff2") format("woff2");
+}
+
+/* --------------- */
+
+body{background:#fff; color:#454545; font-family:"Noto Sans TC", Helvetica, Arial, sans-serif !important;}
+body .reveal.center .slides{}
+.reveal{color:#333; font-size:3em; font-family:"Noto Sans TC", Helvetica, Arial, sans-serif !important;}
+.reveal aside.controls{border:1px solid #9a9a9a ; border-radius:80px; width:80px; height:80px;}
+.reveal aside..controls button{border: 9px solid transparent;}
+/*
+.reveal .controls .navigate-left, .reveal .controls .navigate-left.enabled{border-right-color:#ff9519;}
+.reveal .controls .navigate-right, .reveal .controls .navigate-right.enabled{border-left-color:#ff9519;}
+.reveal .controls .navigate-up, .reveal .controls .navigate-up.enabled{border-bottom-color: #ff9519;}
+.reveal .controls .navigate-down, .reveal .controls .navigate-down.enabled{border-top-color:#ff9519;}
+*/
+.reveal aside.controls .navigate-left{border-right-width:15px; top:28px; left:-5px;}
+.reveal aside.controls .navigate-right{border-left-width:15px; top:28px; left:60px;}
+.reveal aside.controls .navigate-up{border-bottom-width:15px; top:-5px; left:28px;}
+.reveal aside.controls .navigate-down{border-top-width:15px; top:60px; left:28px;}
+.reveal h1, .reveal h2, .reveal h3, .reveal h4, .reveal h5, .reveal h6{color:#454545; font-weight:500;}
+
+.page1 object embed{margin:0 auto; width:80%;}
+.page2 .img{float:left; width:30%;}
+.page2 .txt{float:right; width:65%; font-size:.65em; text-align:left; line-height:1.4; text-align:justify;}
+.page2 .txt span{font-weight:bold; color:#333; font-size:1.4em}
+.page3 a{display:block;}
+.page3 img{width:45%; padding-bottom:5px;}
+.page3 h2{border:1px solid #454545; display:inline-block; padding:3px;} 
