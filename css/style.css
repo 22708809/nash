@@ -37,6 +37,6 @@ img.photoimg{float:right;}
 @media screen and (max-device-width: 400px){
 .nav li{float:left; font-size:40px; width:25%; height:150px; text-align:center;}
 .nav li a{ border:4px solid #000; max-width:130px; max-height:150px; display:block; margin:0 auto; transition:all .3s ease-in-out;}
-	.about li{font-size:15px;}
+	.about li{font-size:12px;}
 	.content img{width:160px;height:auto}
 }
