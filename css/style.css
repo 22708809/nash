@@ -3,7 +3,7 @@ a{text-decoration:none; color:#000;}
 #page{max-width:788px; margin:0 auto;}
 .nav{margin:40px 0px; overflow:hidden;}
 .nav ul, .nav li{margin:0; padding:0; list-style-type:none;}
-.nav li{float:left; font-size:3.5em; width:25%; height:220px; text-align:center;}
+.nav li{float:left; font-size:47px; width:25%; height:220px; text-align:center;}
 .nav li a{ border:4px solid #000; max-width:140px; max-height:140px; display:block; margin:0 auto; transition:all .3s ease-in-out;}
 .nav li a:hover{animation: bomb 1s ease 0s 1 normal;}
 .page3{clear:both;}
@@ -35,7 +35,7 @@ img.photoimg{float:right;}
 	.nav li a{border-width:2px; background:#000; color:#fff; }
 }
 @media screen and (max-device-width: 400px){
-.nav li{float:left; width:25%; height:150px; text-align:center;}
+.nav li{float:left; font-size:40px; width:25%; height:150px; text-align:center;}
 .nav li a{ border:4px solid #000; max-width:130px; max-height:150px; display:block; margin:0 auto; transition:all .3s ease-in-out;}
 	.about li{font-size:12px;}
 	.content img{width:160px;height:auto}
