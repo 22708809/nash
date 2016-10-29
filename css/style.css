@@ -40,3 +40,4 @@ img.photoimg{float:right;}
 	.about li{font-size:12px;}
 	.content img{width:160px;height:auto}
 }
+#backtotop{display:scroll;position:fixed;bottom:15px;right:15px;}
