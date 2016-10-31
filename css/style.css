@@ -41,3 +41,4 @@ img.photoimg{float:right;}
 	.content img{width:160px;height:auto}
 }
 #backtotop{display:scroll;position:fixed;bottom:15px;right:15px;}
+#backtotop:hover{animation: bomb 1s ease;}
