@@ -1,0 +1,54 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	border: 0px;
+	font: inherit;
+	vertical-align: baseline;
+	background-image: url(http://i.imgur.com/j6qANGU.jpg); 
+		background-size: cover;
+		background-position: bottom;
+		background-attachment: fixed;
+		background-repeat: no-repeat;
+		text-align: center;
+		position: relative;
+		font-family: FontAwesome;
+}
+#herder{
+		padding: 8em 0 0em 0;
+		}
+#nav{
+	font-family: FontAwesome;
+	position: relative;
+	color:#03DDB8;
+	overflow:hidden;
+	margin:0px;
+				}
+#nav ul, #nav li{margin:0; padding:0; list-style-type:none;}
+#nav li{float:left; font-size:35px; width:25%; height:180px; text-align:center;}
+#nav li a:hover{animation: bomb 1s ease;}
+#content{
+	background-color: #FFF;
+	}
+@media screen and (max-width: 1024px) {
+	#content img{overflow:hidden; width:100%; height:auto;}
+			}	
+.inner img{width:50%;height:50%;}
+.logo strong {
+	color: #ffffff;
+	font-weight: 600;
+	font-family: FontAwesome;
+			}
+.logo {
+			color: #ffffff;
+			display: inline-block;
+			font-weight: 400;
+			height: inherit;
+			left: 0;
+			line-height: inherit;
+			margin: 0;
+			padding: 0;
+			position: absolute;
+			top: 0;
+			font-size: 1em;
+		}
+
