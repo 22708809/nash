@@ -26,16 +26,28 @@ body{
 	top:0;
 	width:100%;
 				}
-#nav ul, #nav li{margin:0; padding:0; list-style-type:none; letter-spacing: 3px;}
-#nav li{float:right; font-size:27px; width:150px; height:auto; }
-#nav li a:hover{animation: bomb 1s ease;}
+#nav ul, #nav li .social{margin:0 -50px 15px 0; padding:0; list-style-type:none; letter-spacing: 3px;}
+#nav li{float: left; font-size:25px; width:150px; height:auto; }
+#nav li a:hover{animation: bomb 1s ease;border-bottom: 
+	solid 2px #202020;
+	-webkit-transition: border 0.2s ease;
+    -moz-transition: border 0.2s ease;
+    -o-transition: border 0.2s ease;
+    transition: border 0.2s ease;}
 #content{
 	background-color: #FFF;
 	}
 @media screen and (max-width: 1024px) {
 	#content img{overflow:hidden; width:100%; height:auto;}
-			}	
-.inner img{width:50%;height:50%;}
+	#nav ul, #nav li{margin:0;font-size:20px;padding:0;}									
+										}	
+@media screen and (max-width: 768px) {
+	.logo img {width:auto;height:40px;margin:0;padding:0;}
+	#nav ul, #nav li{margin:0 ;font-size:15px;padding:0;}									
+										}	
+										
+.inner img{width:50%;height:50%;
+						}
 .logo {		
 			float:left;
 			display: inline-block;
@@ -43,8 +55,7 @@ body{
 			height: inherit;
 			left: 0;
 			line-height: inherit;
-			margin: 12px;
-			padding: 0px 800px 0px 0px;
+			margin: 20px 800px 0 20px;
 		}
 
 @keyframes bomb {
@@ -59,13 +70,18 @@ body{
 a{color:#000; text-decoration:none;}
 #nav ul li{ float:none; display:inline-block;}
 #nav ul{text-align:center;}
-.social {		
-			float:left;
-			display: inline-block;
-			font-weight: 400;
-			height: inherit;
-			left: 0;
-			line-height: inherit;
-			margin: 12px;
-			padding: 0px 800px 0px 0px;
+.social{		
+			float:right;
+			margin: 15px -100px 0 0;
+		
 		}
+#main-banner p,#main-banner h1{color: #fff;
+	text-align: center;
+	letter-spacing: 2px;}
+@media screen and (max-width: 980px) {
+
+		#nav ul {
+			display: none;
+		}
+
+}
