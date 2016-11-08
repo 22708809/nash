@@ -17,14 +17,17 @@ body{
 		padding: 8em 0 0em 0;
 		}
 #nav{
-	font-family: FontAwesome;
-	position: relative;
-	color:#03DDB8;
+	position: fixed;
+	background-color: #fff;
+	font-family:"Source Sans Pro", Arial, Helvetica, sans-serif;
+	color:#000;
 	overflow:hidden;
 	margin:0px;
+	top:0;
+	width:100%;
 				}
-#nav ul, #nav li{margin:0; padding:0; list-style-type:none;}
-#nav li{float:left; font-size:35px; width:25%; height:180px; text-align:center;}
+#nav ul, #nav li{margin:0; padding:0; list-style-type:none; letter-spacing: 3px;}
+#nav li{float:right; font-size:27px; width:150px; height:auto; }
 #nav li a:hover{animation: bomb 1s ease;}
 #content{
 	background-color: #FFF;
@@ -33,22 +36,36 @@ body{
 	#content img{overflow:hidden; width:100%; height:auto;}
 			}	
 .inner img{width:50%;height:50%;}
-.logo strong {
-	color: #ffffff;
-	font-weight: 600;
-	font-family: FontAwesome;
-			}
-.logo {
-			color: #ffffff;
+.logo {		
+			float:left;
 			display: inline-block;
 			font-weight: 400;
 			height: inherit;
 			left: 0;
 			line-height: inherit;
-			margin: 0;
-			padding: 0;
-			position: absolute;
-			top: 0;
-			font-size: 1em;
+			margin: 12px;
+			padding: 0px 800px 0px 0px;
 		}
 
+@keyframes bomb {
+  from {
+    opacity: .4;
+  }
+
+  to {
+    opacity: 1;
+  }
+  }
+a{color:#000; text-decoration:none;}
+#nav ul li{ float:none; display:inline-block;}
+#nav ul{text-align:center;}
+.social {		
+			float:left;
+			display: inline-block;
+			font-weight: 400;
+			height: inherit;
+			left: 0;
+			line-height: inherit;
+			margin: 12px;
+			padding: 0px 800px 0px 0px;
+		}
