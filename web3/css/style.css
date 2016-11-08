@@ -26,7 +26,7 @@ body{
 	top:0;
 	width:100%;
 				}
-#nav ul, #nav li .social{margin:0 -50px 15px 0; padding:0; list-style-type:none; letter-spacing: 3px;}
+#nav ul, #nav li .social{margin:0; padding:0; list-style-type:none; letter-spacing: 3px;}
 #nav li{float: left; font-size:25px; width:150px; height:auto; }
 #nav li a:hover{animation: bomb 1s ease;border-bottom: 
 	solid 2px #202020;
@@ -37,10 +37,6 @@ body{
 #content{
 	background-color: #FFF;
 	}
-@media screen and (max-width: 1024px) {
-	#content img{overflow:hidden; width:100%; height:auto;}
-	#nav ul, #nav li{margin:0;font-size:20px;padding:0;}									
-										}	
 @media screen and (max-width: 768px) {
 	.logo img {width:auto;height:40px;margin:0;padding:0;}
 	#nav ul, #nav li{margin:0 ;font-size:15px;padding:0;}									
@@ -50,14 +46,14 @@ body{
 						}
 .logo {		
 			float:left;
-			display: inline-block;
 			font-weight: 400;
 			height: inherit;
 			left: 0;
 			line-height: inherit;
-			margin: 20px 800px 0 20px;
+			margin:10px;
 		}
-
+.ulicon{float:right; font-size:2em; margin:18px; display:none;}
+#nav ul{clear:both;}
 @keyframes bomb {
   from {
     opacity: .4;
@@ -69,19 +65,51 @@ body{
   }
 a{color:#000; text-decoration:none;}
 #nav ul li{ float:none; display:inline-block;}
-#nav ul{text-align:center;}
+#nav ul{text-align:center; position:absolute; transform:translate(30,0); left:50%;}
 .social{		
 			float:right;
-			margin: 15px -100px 0 0;
-		
+			margin: 0;
+			padding:0;
+
 		}
 #main-banner p,#main-banner h1{color: #fff;
 	text-align: center;
 	letter-spacing: 2px;}
+.utilitiesContainer{display:none;}
 @media screen and (max-width: 980px) {
+	.utilitiesContainer{display:block;}
+	.ulicon{display:block;}
+	#nav ul {display:none; position:relative; left:0; transform:translate(0,0);}
+	#nav ul li{display:block; width:100%;}
+	#nav ul li a{display:block; text-align:center; padding:10px 0;}
 
-		#nav ul {
-			display: none;
-		}
+}
+/* 導覽頁開關按鈕 */
+.visuallyhidden {
+  /*border: 0;
+  clip: rect(0 0 0 0);
+  height: 1px;
+  margin: -1px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+  width: 1px;*/
+      display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    background: #000;
+    height: 100px;
+    width: 100px;
+    z-index: 9999;
+}
 
+.visuallyhidden.focusable:active,
+.visuallyhidden.focusable:focus {
+  clip: auto;
+  height: auto;
+  margin: 0;
+  overflow: visible;
+  position: static;
+  width: auto;
 }
