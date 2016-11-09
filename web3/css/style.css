@@ -34,9 +34,6 @@ body{
     -moz-transition: border 0.2s ease;
     -o-transition: border 0.2s ease;
     transition: border 0.2s ease;}
-#content{
-	background-color: #FFF;
-	}
 @media screen and (max-width: 768px) {
 	.logo img {width:auto;height:40px;margin:0;padding:0;}
 	#nav ul, #nav li{margin:0 ;font-size:15px;padding:0;}									
@@ -52,7 +49,7 @@ body{
 			line-height: inherit;
 			margin:10px;
 		}
-.ulicon{float:right; font-size:2em; margin:18px; display:none;}
+.ulicon{float:right; font-size:3em; margin:20px; display:none;}
 #nav ul{clear:both;}
 @keyframes bomb {
   from {
@@ -74,42 +71,18 @@ a{color:#000; text-decoration:none;}
 		}
 #main-banner p,#main-banner h1{color: #fff;
 	text-align: center;
-	letter-spacing: 2px;}
-.utilitiesContainer{display:none;}
+	letter-spacing: 2px;
+	font-size:2em;}
 @media screen and (max-width: 980px) {
-	.utilitiesContainer{display:block;}
 	.ulicon{display:block;}
 	#nav ul {display:none; position:relative; left:0; transform:translate(0,0);}
 	#nav ul li{display:block; width:100%;}
-	#nav ul li a{display:block; text-align:center; padding:10px 0;}
-
+	#nav ul li a{display:block; text-align:center; padding:10px 0;font-size:2.5em;}
+	#nav ul .social img{width:2em;height:auto;}
+	.logo{margin:20px;}
 }
-/* 導覽頁開關按鈕 */
-.visuallyhidden {
-  /*border: 0;
-  clip: rect(0 0 0 0);
-  height: 1px;
-  margin: -1px;
-  overflow: hidden;
-  padding: 0;
-  position: absolute;
-  width: 1px;*/
-      display: block;
-    position: absolute;
-    top: 0;
-    right: 0;
-    background: #000;
-    height: 100px;
-    width: 100px;
-    z-index: 9999;
-}
-
-.visuallyhidden.focusable:active,
-.visuallyhidden.focusable:focus {
-  clip: auto;
-  height: auto;
-  margin: 0;
-  overflow: visible;
-  position: static;
-  width: auto;
-}
+.banner-1 ul li{list-style-type:none;padding:10px 10px;float:left;text-align:center;}
+.banner-1 ul li img{width:240px;}
+.banner-1 ul{margin:0 18%;padding:0 auto;}
+#content{background-color:#fff;position: relative;padding:3em;}
+.banner-1 ul li a:hover{animation: bomb 1s ease;}
