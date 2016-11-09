@@ -84,9 +84,12 @@ a{color:#000; text-decoration:none;}
 .banner-1 ul li{list-style-type:none;padding:10px 10px;float:left;text-align:center;}
 .banner-1 ul li img{width:240px;}
 .banner-1 ul{margin:0 18%;padding:0 auto;}
-
+.image-full ul.ul2 li{display:inline-block;}
 .banner-1 ul li a:hover{animation: bomb 1s ease;}
-.image-full ul{list-style-type:none;padding:10px 5px;fload:left;margin:0;}
+.image-full ul{list-style-type:none;padding:10px 5px; clear:both; margin:0;}
 .image-full{margin:0;}
+.image-full ul li a:hover{animation: bomb 1s ease;}
 /* content */
 #content{background-color:#fff;padding:3em;margin:0;}
+/* footer */
+.bottom{background-color:#0ABAB5;font-family: monospace;font-size:1.3em;padding:1em 0;}
