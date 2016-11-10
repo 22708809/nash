@@ -19,7 +19,7 @@ $(function(){
       _height = $('.home_line').height() * -1,
       scrollSpeed = 900,
       timer,
-      speed = 10 + scrollSpeed;
+      speed = 2000 + scrollSpeed;
   
   $LI.hover(function(){ clearTimeout(timer); }, function(){  timer = setTimeout(showad, speed);	});
  
