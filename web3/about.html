@@ -1,0 +1,78 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+<title>關於我們</title>
+    <!-- Lightbox -->
+<link rel="stylesheet" href="plugin/lightbox/css/lightbox.min.css">
+	<!-- 圖示字型（網路字型「font-awesome」）用的 CSS -->
+<link rel="stylesheet" href="css/font-awesome.min.css">
+	<!-- CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <!-- JS -->
+	<script type="text/javascript" src="https://code.jquery.com/jquery.js"></script>
+    <!-- JS COMMON -->	<script src="js/common.js"></script>
+</head>
+
+<body>
+<div id="wrapper">
+<!-- herder -->
+<div id="herder">
+   	<nav id="nav">
+    	<a href="#" class="logo"><img src="image/olehA.png" alt=""></a>
+<!-- 導覽頁的開關 -->
+        <div class="ulicon"><div class="fa fa-bars"></div></div>
+        <ul>
+        	<li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Facebook</a></li>
+            <li><a href="#">Acsecc</a></li>
+            <li class="social"><a href="#"><img src="http://jsrun.it/assets/A/V/m/d/AVmdK.png" alt=""></a></li>
+			<li class="social"><a href="#"><img src="http://jsrun.it/assets/A/w/j/w/Awjwt.png" alt=""></a></li>
+         </ul>
+      </nav>
+</div>
+<!-- content -->
+<div id="main-banner">
+    <div class="inner"><img src="image/pc_main.jpg"></div>
+    <h1>About me</h1>
+</div> 
+<div id="content-1">
+<div id="block-social">
+    <div class="block-social-item">
+        <h2 class="heading"><img src="image/1478810606_social-40.png">LINE</h2>
+            <img src="image/banner-line.png">
+    </div>
+</div>
+<div id="block-social-item-chid">
+    <h2 class="heading"><img src="image/1478810606_social-40.png">LINE</h2>
+            <img src="image/banner-line.png">
+</div>
+<!-- bottom -->
+<div class="bottom">
+        <div class="footer-mag"><img src="image/copyright.png"></div>
+        <div class="footer-mag"><img src="image/logo-jun.png"></div>
+    </div>
+</div>
+</div>
+<!-- Lightbox -->
+<!-- 測試用 -->
+<script src="plugin/lightbox/js/lightbox-plus-jquery.min.js"></script>
+<footer>JavaScript Sampless</footer>
+<script>
+    var enemy = 50000;
+    var attack;
+    var count =0;
+    window.alert('您遇見了"弱小"的史萊姆戰鬥開始!');
+    while(enemy > 0) {
+        attack =Math.floor(Math.random() * 30);
+        console.log('"弱小"的史萊姆受到' + attack + '點的一點點傷害!');
+        enemy -= attack;
+        count++;
+    }
+    console.log('在第' + count +'回合打倒史萊姆了!也打太久了，好廢');
+</script>
+<!-- 測試用 -->
+</body>
+
+</html>
