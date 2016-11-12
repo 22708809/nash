@@ -75,6 +75,7 @@ a{color:#000; text-decoration:none;}
 /* max-width 980px */
 @media screen and (max-width: 980px) 
 {
+#herder{position:relative;z-index: 5;}
 #wrapper{background-image: url(http://i.imgur.com/j6qANGU.jpg);}
 
 	.ulicon{display:block;}
@@ -147,10 +148,15 @@ a{color:#000; text-decoration:none;}
 /* ABOUT */
 #footer{clear:both;}
 .heading{padding:0;font-size: 50px;color:#00c300;line-height:0.5em;}
-.heading img{height:80px;width:80px;margin: -20px 10px;}
+.heading img,.heading1 img,.heading2 img{height:80px;width:80px;margin: -20px 10px;}
+.heading1{padding:0;font-size: 50px;color:#3b5998;line-height:0.5em;}
+.heading2{padding:0;font-size: 50px;color:#1da1f2;line-height:0.5em;}
+#block-social{float:left;}
+.block-socialright{float:right;}
 
-
-#block-social{display:inline;float:left;}
-#block-social-item-chid{float:left;display:inline}
-.block-social-item{margin:0 2em;floot:left;}
-#content-1{background-color:#FFF;padding:1px 0;margin:0;}
+#block-social-item-chid{padding: 60px 0 0 0;}
+#block-social-item-chid1{padding:50px 0 0 0;}
+#content-1 a:hover{animation: bomb 1s ease;}
+.block-social-item{margin:0 2em;float: :left;}
+#content-1{background-color:#FFF; padding:0; margin:0; width:100%;}
+.content-chid{width:1400px; margin:0 auto 30px; overflow:hidden;}
