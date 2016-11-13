@@ -73,21 +73,7 @@ a{color:#000; text-decoration:none;}
 	text-align: center;
 	letter-spacing: 2px;
 	font-size:2em;}
-/* max-width 980px */
-@media screen and (max-width: 980px) 
-{
-#wrapper{background-image: url(http://i.imgur.com/j6qANGU.jpg);}
 
-	.ulicon{display:block;}
-	#nav ul { 
-		display:none; position:relative; left:0; transform:translate(0,0);
-		}
-	#nav ul li{display:block; width:100%;}
-	#nav ul li a{display:block; text-align:center; padding:10px 0;font-size:2.5em;}
-	#nav ul .social img{width:2em;height:auto;}
-	.logo{margin:20px;}
-	#s2 ul li{margin:20px 0;}
-}
 .banner-1 ul li{list-style-type:none;padding:10px 10px;float:left;text-align:center;}
 .banner-1 ul li img{width:240px;}
 .banner-1 ul{margin:0 18%;padding:0 auto;}
@@ -146,8 +132,10 @@ a{color:#000; text-decoration:none;}
 .home_line li{font-size:23px; margin:1px 0; color:#333;font-family: monospace;
 	font-family:"Source Sans Pro", Arial, Helvetica, sans-serif;}
 .slick-track{width:100%;overflow:hidden;margin:10px 0;}
+.slick-track ul{text-align:center;padding:0;margin:0;}
 .slick-track li img{width:285px;}
-.slick-track li{float:left;list-style-type:none;padding:0 10px;}
+.slick-track li{display:inline-block; list-style-type:none;padding:0 10px;}
+.slick-track ul li a{display:block;}
 #slick-id{max-width:100%; display: block;}
 /* ABOUT */
 #footer{clear:both;}
@@ -164,3 +152,27 @@ a{color:#000; text-decoration:none;}
 .block-social-item{margin:0 2em;float: :left;}
 #content-1{background-color:#FFF; padding:0; margin:0; width:100%;}
 .content-chid{max-width:1400px; margin:0 auto 30px; overflow:hidden;}
+
+
+
+
+
+
+
+/* max-width 980px */
+@media screen and (max-width: 980px) 
+{
+.block-socialright, #block-social{float:none;}
+.content-chid{max-width:none;}
+#wrapper{background-image: url(http://i.imgur.com/j6qANGU.jpg);}
+
+	.ulicon{display:block;}
+	#nav ul { 
+		display:none; position:relative; left:0; transform:translate(0,0);
+		}
+	#nav ul li{display:block; width:100%;}
+	#nav ul li a{display:block; text-align:center; padding:10px 0;font-size:2.5em;}
+	#nav ul .social img{width:2em;height:auto;}
+	.logo{margin:20px;}
+	#s2 ul li{margin:20px 0;}
+}
