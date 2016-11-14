@@ -13,6 +13,7 @@ a{text-decoration:none; color:#000;}
 .box span{font-weight:bold; font-size:20px;}
 img.photoimg{float:right;}
 .banner img{overflow:hidden; width:100%; height:auto;}
+.box-1{text-align:center;}
 @keyframes bomb {
   from {
     opacity: .4;
@@ -35,6 +36,7 @@ img.photoimg{float:right;}
 @media screen and (max-width: 600px) {
 	.nav li a{border-width:2px; background:#000; color:#fff;border-radius:0px }
 }
+.box-1{width:100%;}
 @media screen and (max-device-width: 400px){
 .nav li{float:left; font-size:40px; width:25%; height:150px; text-align:center;}
 .nav li a{ border:4px solid #000; max-width:130px; max-height:150px; display:block; margin:0 auto; transition:all .3s ease-in-out;}
