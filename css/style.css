@@ -14,6 +14,7 @@ a{text-decoration:none; color:#000;}
 img.photoimg{float:right;}
 .banner img{overflow:hidden; width:100%; height:auto;}
 .box-1{text-align:center;}
+.box-1 p{margin:0;}
 @keyframes bomb {
   from {
     opacity: .4;
