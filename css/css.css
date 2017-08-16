@@ -33,3 +33,6 @@ body .reveal.center .slides{}
 .page3 a{display:block;}
 .page3 img{width:45%; padding-bottom:5px;}
 .page3 h2{border:1px solid #454545; display:inline-block; padding:3px;} 
+@media screen and (max-width: 400px) {
+    .box-1 img{width: 100%;}
+				}
