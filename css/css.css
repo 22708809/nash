@@ -9,7 +9,7 @@
 
 /* --------------- */
 
-body{background:#fff; color:#454545; font-family:"Noto Sans TC", Helvetica, Arial, sans-serif !important;}
+body{background:#fff; color:#454545;  !important;}
 body .reveal.center .slides{}
 .reveal{color:#333; font-size:3em; font-family:"Noto Sans TC", Helvetica, Arial, sans-serif !important;}
 .reveal aside.controls{border:1px solid #9a9a9a ; border-radius:80px; width:80px; height:80px;}
